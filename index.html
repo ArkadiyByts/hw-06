@@ -15,9 +15,9 @@
 </head>
 <body>
     <header class="header">
-        <a class="navigation__logo" href="#">WebStudio</a>
+        <a class="navigation__logo" href="/index.html">Web<span class="navigation__logo-sec">Studio</span></a>
         <nav class="navigation">
-            <ul class="navigation__list">
+            <ul class="navigation__list list">
                 <li class="navigation__list__item">
                     <a class="navigation__list__link" href="#">Agencja</a></li>
                 <li class="navigation__list__item">
@@ -29,45 +29,50 @@
         <a class="email" 
         href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="phone__number" 
-        href="tel:+48111111111">+48111111111</a>
+        href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
-        <section>
-            <div class="upper--part">
+        <section class="upper__part">
+            <div class="upper__part-in">
+                <!-- DODAŁEM background-color: #2F303A; 
+                W CSS ŻEBY BIAŁY TEXT BYŁ WIDOCZNY -->
                 <h1 class="main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button class="order__btm" type="button">Zamów usługe</button>
             </div>
         </section>
-        <section>
-            <ul>
+        
+        <section class="second__part">
+            <ul class="list">
                 <li>
-                    <p class="paragraph__name">LOREM IPSUM</p>
+                    <h4 class="paragraph__name">LOREM IPSUM</h4>
                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
                         et malesuada</p>
                 </li>
                 <li>
-                    <p class="paragraph__name">LOREM IPSUM</p>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+                    <h4 class="paragraph__name">LOREM IPSUM</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                        Interdum
                         et malesuada</p>
                 </li>
                 <li>
-                    <p class="paragraph__name">LOREM IPSUM</p>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+                    <h4 class="paragraph__name">LOREM IPSUM</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                        Interdum
                         et malesuada</p>
                 </li>
                 <li>
-                    <p class="paragraph__name">LOREM IPSUM</p>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+                    <h4 class="paragraph__name">LOREM IPSUM</h4>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                        Interdum
                         et malesuada</p>
                 </li>
             </ul>
         </section>
-        
-        
-        <section>
+
+        <section class="second__part">
             <div>
                 <h2 class="under__title">Czym się zajmujemy</h2>
-                <ul>
+                <ul class="list">
                     <li>
                         <img src="images/programming.jpg" alt="programming" width="370" height="294">
                     </li>
@@ -80,11 +85,10 @@
                 </ul>
             </div>
         </section>
-        
-        
-        <section>
+              
+        <section class="third_part">
             <h2 class="under__title">Nasz zespół</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="images/joefoto1.jpg" alt="FOTO1" width="270" height="260">
                     <h3 class="name">John Doe</h3>
@@ -108,14 +112,14 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="footer">
+        <a class="navigation__logo-down" href="/index.html">Web<span class="navigation__logo-sec-down">Studio</span></a>
         
         <address class="adress">
-            <ul>
-                <li><a href="https://goo.gl/maps/x3iuPh3qe1rizQfR7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a  class="adress__phone__number" href="tel:48111111111">+48 111 111 111</a></li>
+            <ul class="adressplat list">
+                <li><a class="inmap__adress" href="https://goo.gl/maps/x3iuPh3qe1rizQfR7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+                <li><a class="email__down" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="phone__number-down" class="adress__phone__number" href="tel:48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
     </footer>
