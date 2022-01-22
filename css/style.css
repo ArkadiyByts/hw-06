@@ -164,7 +164,7 @@ body {
 }
 
 .paragraph {
-    font-weight: normal;
+    
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -184,22 +184,22 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.188;
-    text-align: center;
+    
     letter-spacing: 0.03em;
 }
 
 .job {
-    font-weight: normal;
+    
     font-size: 16px;
     line-height: 1.188;
-    text-align: center;
+    
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 
 /* *********** END OF MAIN *********** */
-/* *********** END OF FOOTER *********** */
+/* ***********  FOOTER *********** */
 .footer {
     background-color: #2F303A;
 }
@@ -209,7 +209,7 @@ body {
 .email__down,
 .phone__number-down {
     font-style: normal;
-    font-weight: normal;
+    
     font-size: 14px;
     line-height: 1.714;
     text-decoration: none;
