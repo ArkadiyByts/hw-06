@@ -12,16 +12,12 @@ body {
     
 }
 /* *********** actions *********** */
-.order__btm:hover,
-.order__btm:focus {
-    color: var(--main-color);
-    background-color: #F5F4FA;
-}
+
 
 .nav_buttom:hover,
 .nav_buttom:focus {
     color: #FFFFFF;;
-    background-color: #2196F3;;
+    background-color: #2196F3;
 }
 
 .inmap__adress:hover,
@@ -178,8 +174,11 @@ body {
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
+    
 }
-
+.third_part{
+    background-color: #F5F4FA;
+}
 .name {
     font-weight: 500;
     font-size: 16px;
