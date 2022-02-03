@@ -12,95 +12,129 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <a class="navigation__logo" href="index.html">Web<span class="navigation__logo-sec">Studio</span></a>
-        <nav class="navigation">
-            <ul class="navigation__list list">
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link" href="#">Agencja</a>
-                </li>
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link special" href="#">Portfolio</a>
-                </li>
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link" href="#">Kontakt</a>
-                </li>
-            </ul>
-        </nav>
-        <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="phone__number" href="tel:+48111111111">+48 111 111 111</a>
+    <header class="header">
+        <div class="container">
+            <a class="navigation-logo" href="index.html"><span class="navigation-logo-color">Web</span>Studio</a>
+            <nav class="navigation">
+                <ul class="navigation-list list">
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link" href="#">Agencja</a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link" href="portolio.html">Portfolio</a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="address">
+                <ul class="navigation-address list">
+                    <li class="navigation-address-item">
+                        <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="navigation-address-item">
+                        <a class="address-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="buttoms">
-            <ul class="list">
-                <li><button class="nav_buttom" type="button">Wszystkie</button></li>
-                <li><button class="nav_buttom" type="button">Strony</button></li>
-                <li><button class="nav_buttom" type="button">Aplikacje</button></li>
-                <li><button class="nav_buttom" type="button">Dizajn</button></li>
-                <li><button class="nav_buttom" type="button">Marketing</button></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="list">
-                <li>
-                    <img src="images/lapt.jpg" alt="laptop" width="370" height="294">
-                    <h3 class="project__title">Technocrack</h3>
-                    <p class="project__title-descr">Strona internetowa</p>
-                </li>
-                <li>
-                    <img src="images/grafic.jpg" alt="colorowe zdj" width="370" height="294">
-                    <h3 class="project__title">Grafika New Orlean vs Golden Star</h3>
-                    <p class="project__title-descr">Dizajn</p>
-                </li>
-                <li>
-                    <img src="images/resto.jpg" alt="logo resto" width="370" height="294">
-                    <h3 class="project__title">Restauracja Seafood</h3>
-                    <p class="project__title-descr">Aplikacja</p>
-                </li>
-                <li>
-                    <img src="images/projekt.jpg" alt="zdj sluchawek" width="370" height="294">
-                    <h3 class="project__title">Projekt Prime</h3>
-                    <p class="project__title-descr">Marketing</p>
-                </li>
-                <li>
-                    <img src="images/boxes.jpg" alt="zdj kartonow" width="370" height="294">
-                    <h3 class="project__title">Projekt Boxes</h3>
-                    <p class="project__title-descr">Aplikacja</p>
-                </li>
-                <li>
-                    <img src="images/inspiration.jpg" alt="zdj computera" width="370" height="294">
-                    <h3 class="project__title">Inspiration has no Borders</h3>
-                    <p class="project__title-descr">Strona internetowa</p>
-                </li>
-                <li>
-                    <img src="images/magazyn.jpg" alt="zdjecie" width="370" height="294">
-                    <h3 class="project__title">Magazyn Limited Edition</h3>
-                    <p class="project__title-descr">Dizajn</p>
-                </li>
-                <li>
-                    <img src="images/lab.jpg" alt="zdj tabliczki" width="370" height="294">
-                    <h3 class="project__title">Projekt LAB</h3>
-                    <p class="project__title-descr">Marketing</p>
-                </li>
-                <li>
-                    <img src="images/busines.jpg" alt="zdj laptopa" width="370" height="294">
-                    <h3 class="project__title">Growing Business</h3>
-                    <p class="project__title-descr">Aplikacja</p>
-                </li>
-            </ul>
-        </div>
+        <section class="portfolio">
+            <div class="filters-portfolio container">
+                <ul class="filters-list-portfolio list">
+                    <li class="filters-list-item-portfolio"> <button class="model-btn-portfolio"
+                            type="button_1">Wszystkie</button></li>
+                    <li class="filters-list-item-portfolio"> <button class="model-btn-portfolio" type="button_2">Strony</button>
+                    </li>
+                    <li class="filters-list-item-portfolio"> <button class="model-btn-portfolio"
+                            type="button_3">Aplikacje</button></li>
+                    <li class="filters-list-item-portfolio"> <button class="model-btn-portfolio" type="button_4">Dizajn</button>
+                    </li>
+                    <li class="filters-list-item-portfolio"> <button class="model-btn-portfolio"
+                            type="button_5">Marketing</button></li>
+                </ul>
+        
+            </div>
+        </section>
+        
+        <section class="project">
+            <div>
+                <ul class="project-list list">
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/lapt.jpg" alt="Technocrack, Strona internetowa" width="370"
+                            height="294">
+                        <h3 class="third-header-project">Technocrack</h3>
+                        <p class="staff_p-project">Strona internetowa</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/grafic.jpg" alt="Grafika New Orlean vs Golden Star, Dizajn"
+                            width="370" height="294">
+                        <h3 class="third-header-project">Grafika New Orlean vs Golden Star</h3>
+                        <p class="staff_p-project">Dizajn</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/resto.jpg" alt="Restauracja Seafood, Aplikacja" width="370"
+                            height="294">
+                        <h3 class="third-header-project">Restauracja Seafood</h3>
+                        <p class="staff_p-project">Aplikacja</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/projekt.jpg" alt="Projekt Prime, Marketing" width="370" height="294">
+                        <h3 class="third-header-project">Projekt Prime</h3>
+                        <p class="staff_p-project">Marketing</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/boxes.jpg" alt="Projekt Boxes, Aplikacja" width="370" height="294">
+                        <h3 class="third-header-project">Projekt Boxes</h3>
+                        <p class="staff_p-project">Aplikacja</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/inspiration.jpg" alt="Inspiration has no Borders, Strona internetowa"
+                            width="370" height="294">
+                        <h3 class="third-header-project">Inspiration has no Borders</h3>
+                        <p class="staff_p-project">Strona internetowa</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/magazyn.jpg" alt="Magazyn Limited Edition, Dizajn" width="370"
+                            height="294">
+                        <h3 class="third-header-project">Magazyn Limited Edition</h3>
+                        <p class="staff_p-project">Dizajn</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/lab.jpg" alt="Projekt LAB, Marketing" width="370" height="294">
+                        <h3 class="third-header-project">Projekt LAB</h3>
+                        <p class="staff_p-project">Marketing</p>
+                    </li>
+                    <li class="project-list-item">
+                        <img class="project-list-img" src="images/busines.jpg" alt="Growing Business, Aplikacja" width="370"
+                            height="294">
+                        <h3 class="third-header-project">Growing Business</h3>
+                        <p class="staff_p-project">Aplikacja</p>
+                    </li>
+                
+                </ul>
+            </div>
+        </section>
 
     </main>
-    <footer class="footer">
-        <a class="navigation__logo-down" href="index.html">Web<span class="navigation__logo-sec-down">Studio</span></a>
-        
-        <address  class="adress">
-            <ul class="adressplat list">
-                <li><a class="inmap__adress" href="https://goo.gl/maps/x3iuPh3qe1rizQfR7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a class="email__down email__esle" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="phone__number-down" href="tel:48111111111">+48 111 111 111</a></li>
-            </ul>
-        </address>
+
+    <footer class="footer section-footer">
+        <div class="container">
+            <a class="navigation-logo-footer" href="index.html"><span class="navigation-logo-color">Web</span>Studio</a>
+            <address class="footer_address">
+                <ul class="footer_list list">
+                    <li class="footer_list_item">
+                        <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+                    </li>
+                    <li class="footer_list_item"><a class="footer-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer_list_item"><a class="footer-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>    
 </body>
 </html>

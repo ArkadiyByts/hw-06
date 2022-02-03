@@ -9,117 +9,138 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-    <title>Document</title>
+    <title>Webstudio</title>
 </head>
 <body>
     <header class="header">
-        <a class="navigation__logo" href="index.html">Web<span class="navigation__logo-sec">Studio</span></a>
+        <div class="container">
+        <a class="navigation-logo" href="index.html"><span class="navigation-logo-color">Web</span>Studio</a>
         <nav class="navigation">
-            <ul class="navigation__list list">
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link" href="#">Agencja</a></li>
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link" href="portfolio.html">Portfolio</a></li>
-                <li class="navigation__list__item">
-                    <a class="navigation__list__link" href="#">Kontakt</a></li>
+            <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="#">Agencja</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="#">Kontakt</a>
+                </li>
             </ul>
         </nav>
-        <a class="email" 
-        href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="phone__number" 
-        href="tel:+48111111111">+48 111 111 111</a>
+            <div class="address">
+            <ul class="navigation-address list">
+                <li class="navigation-address-item">
+                    <a class="address-mail" 
+                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="navigation-address-item">
+                    <a class="address-phone-number" 
+                href="tel:+48111111111">+48 111 111 111</a>
+                </li>
+            </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <section class="upper__part">
-            <div class="upper__part-in">
-                <!-- DODAŁEM background-color: #2F303A; 
-                W CSS ŻEBY BIAŁY TEXT BYŁ WIDOCZNY -->
+        <section class="button section">
+            <div class="button-content container">
+                
                 <h1 class="main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button class="order__btm" type="button">Zamów usługe</button>
+                <button class="model-btn" type="button">Zamów usługe</button>
             </div>
         </section>
         
-        <section class="second__part">
-            <ul class="list">
-                <li>
-                    <h4 class="paragraph__name">LOREM IPSUM</h4>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+        <section class="navigation-advantages">
+            <div class="container">
+            <ul class="navigation-advantages-list list">
+                <li class="navigation-advantages-item">
+                    <h4 class="navigation-advantages-h4">LOREM IPSUM</h4>
+                    <p class="navigation-advantages-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
                         et malesuada</p>
                 </li>
-                <li>
-                    <h4 class="paragraph__name">LOREM IPSUM</h4>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                <li class="navigation-advantages-item">
+                    <h4 class="navigation-advantages-h4">LOREM IPSUM</h4>
+                    <p class="navigation-advantages-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
                         Interdum
                         et malesuada</p>
                 </li>
-                <li>
-                    <h4 class="paragraph__name">LOREM IPSUM</h4>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                <li class="navigation-advantages-item">
+                    <h4 class="navigation-advantages-h4">LOREM IPSUM</h4>
+                    <p class="navigation-advantages-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
                         Interdum
                         et malesuada</p>
                 </li>
-                <li>
-                    <h4 class="paragraph__name">LOREM IPSUM</h4>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
+                <li class="navigation-advantages-item">
+                    <h4 class="navigation-advantages-h4">LOREM IPSUM</h4>
+                    <p class="navigation-advantages-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
                         Interdum
                         et malesuada</p>
                 </li>
             </ul>
+            </div>
         </section>
 
-        <section class="second__part">
-            <div>
-                <h2 class="under__title">Czym się zajmujemy</h2>
-                <ul class="list">
-                    <li>
-                        <img src="images/programming.jpg" alt="programming" width="370" height="294">
+        <section class="what-we-do section">
+            <div class="container">
+                <h2 class="secondary-header">Czym się zajmujemy</h2>
+                <ul class="what-we-do-list list">
+                    <li class="what-we-do-item">
+                        <img class="what-we-do-list-photo" src="images/programming.jpg" alt="programming" width="370" height="294">
                     </li>
-                    <li>
-                        <img src="images/mobileapps.jpg" alt="mobileapps" width="370" height="294">
+                    <li class="what-we-do-item">
+                        <img class="what-we-do-list-photo" src="images/mobileapps.jpg" alt="mobileapps" width="370" height="294">
                     </li>
-                    <li>
-                        <img src="images/design.jpg" alt="design" width="370" height="294">
+                    <li class="what-we-do-item">
+                        <img class="what-we-do-list-photo" src="images/design.jpg" alt="design" width="370" height="294">
                     </li>
                 </ul>
             </div>
         </section>
               
-        <section class="third_part">
-            <h2 class="under__title">Nasz zespół</h2>
-            <ul class="list">
-                <li>
-                    <img src="images/joefoto1.jpg" alt="FOTO1" width="270" height="260">
-                    <h3 class="name">John Doe</h3>
-                    <p class="job">Product Designer</p>
+        <section class="staff section">
+            <div class="container">
+            <h2 class="secondary-header">Nasz zespół</h2>
+            <ul class="staff-list list">
+                <li class="staff-list-item">
+                    <img class="staff-list-img" src="images/joefoto1.jpg" alt="FOTO1" width="270" height="260">
+                    <h3 class="third-header">John Doe</h3>
+                    <p class="staff_p">Product Designer</p>
                 </li>
-                <li>
-                    <img src="images/liliefoto2.jpg" alt="FOTO2" width="270" height="260">
-                    <h3 class="name">John Doe</h3>
-                    <p class="job">Frontend Developer</p>
+                <li class="staff-list-item">
+                    <img class="staff-list-img" src="images/liliefoto2.jpg" alt="FOTO2" width="270" height="260">
+                    <h3 class="third-header">John Doe</h3>
+                    <p class="staff_p">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="images/tommyfoto3.jpg" alt="FOTO3" width="270" height="260">
-                    <h3 class="name">John Doe</h3>
-                    <p class="job">Marketing</p>
+                <li class="staff-list-item">
+                    <img class="staff-list-img" src="images/tommyfoto3.jpg" alt="FOTO3" width="270" height="260">
+                    <h3 class="third-header">John Doe</h3>
+                    <p class="staff_p">Marketing</p>
                 </li>
-                <li>
-                    <img src="images/jimmyfoto4.jpg" alt="FOTO4" width="270" height="260">
-                    <h3 class="name">John Doe</h3>
-                    <p class="job">UI Designer</p>
+                <li class="staff-list-item">
+                    <img class="staff-list-img" src="images/jimmyfoto4.jpg" alt="FOTO4" width="270" height="260">
+                    <h3 class="third-header">John Doe</h3>
+                    <p class="staff_p">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
-    <footer class="footer">
-        <a class="navigation__logo-down" href="index.html">Web<span class="navigation__logo-sec-down">Studio</span></a>
-        
-        <address class="adress">
-            <ul class="adressplat list">
-                <li><a class="inmap__adress" href="https://goo.gl/maps/x3iuPh3qe1rizQfR7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a class="email__down" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="phone__number-down adress__phone__number" href="tel:48111111111">+48 111 111 111</a></li>
-            </ul>
-        </address>
+    <footer class="footer section-footer">
+        <div class="container">
+            <a class="navigation-logo-footer" href="index.html"><span class="navigation-logo-color">Web</span>Studio</a>
+            <address class="footer_address">
+                <ul class="footer_list list">
+                    <li class="footer_list_item">
+                        <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+                    </li>
+                    <li class="footer_list_item"><a class="footer-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer_list_item"><a class="footer-phone-number" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
