@@ -211,16 +211,13 @@ img{
 
 
 .button-content h1{
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.364;
-
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
-/* width: 46.5rem; */
-/* text-transform: uppercase; */
 color: #FFFFFF;
 width: 696px;
 height: 120px;
@@ -231,11 +228,23 @@ margin-right: auto;
 margin-left: auto;
 }
 
+/* .button-content {
+    background-image: url("/images/theme.jpg");
+} */
+
 .button {
- background :#2F303A;
+ background-image: linear-gradient(
+     rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+    url("/images/theme.jpg");
+ background-repeat: no-repeat;
+  n
+ background-size: cover;
+ 
   height: 37.5rem;
   display: flex;
   align-items: center;
+  
 }
 
 /*================END BUTTON================ */
