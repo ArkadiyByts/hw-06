@@ -235,6 +235,7 @@ img{
 }
 
 .num_email {
+    fill: #757575;
     color: #757575;
 }
 
@@ -294,7 +295,8 @@ margin-left: auto;
     url("/images/theme.jpg");
  background-repeat: no-repeat;
   
- background-size: cover;
+ background-position: center;
+ /* background-size: 1600px; */
  
   height: 37.5rem;
   display: flex;
@@ -314,6 +316,24 @@ margin-left: auto;
 .what-we-do-list{
     display: flex;
     justify-content: space-between;
+}
+
+.advantages-icon {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.advantages-iconbox{
+    
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation-advantages-h4{    
@@ -438,6 +458,57 @@ margin-left: auto;
     border-radius: 0px 0px 4px 4px;
 }
 /*================END STAFF================ */
+/*================customers================ */
+
+/* .customers {
+    background: #E5E5E5;
+} */
+
+.customers-list {
+    display: flex;
+    padding-top: 50px;
+    
+    
+}
+
+
+
+.custom_list-itemsvg {
+    fill: #AFB1B8;
+    display: block;
+    width: 170px;
+    height: 92px;
+    
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.custom_list-itemsvg:hover,
+.custom_list-itemsvg:focus {
+    fill: var(--main-color);
+    border: 1px solid #2196F3;
+}
+
+
+.custom_list-itemsvg {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.customers-list {
+    justify-content: space-between;
+}
+
+.custom-icon {
+    width: 106px;
+    height: 60.04px;
+    margin: 16px 32px ;
+    
+}
+
+/*================END customers================ */
 
 /*================FOOTER================ */
 .navigation-logo-footer{
@@ -454,7 +525,34 @@ margin-left: auto;
 }
 
 .footer{
-    background: #2F303A;
+    background-color: #2F303A;
+    
+    
+}
+
+.footer .container{
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.footercont1 {
+    margin-right: 70px;
+}
+
+.footerlinks {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.footer_linkstitle {
+    margin-top: 12px;
+    margin-bottom: auto;
+
 }
 
 .footer_list{    
@@ -479,6 +577,43 @@ margin-left: auto;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.footer_linkstitle {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footerlinks-itemsvg {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF;
+}
+
+.footerlinks-itemsvg:hover,
+.footerlinks-itemsvg:focus {
+    fill: #FFFFFF;
+    background-color: var(--main-color);
+}
+
+.footerlinks {
+    width: 206px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.footer-icon {
+    width: 20px;
+    height: 20px;
+}
 /*================END FOOTER================ */
 
 /*================PORTFOLIO================ */
