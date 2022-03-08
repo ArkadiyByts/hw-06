@@ -55,7 +55,7 @@
             <div class="button-content container">
                 
                 <h1 class="main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button class="model-btn" type="button">Zamów usługe</button>
+                <button class="model-btn" type="button" data-modal-open>Zamów usługe</button>
             </div>
         </section>
         
@@ -375,6 +375,18 @@
             </ul>
         </div>
         </div>
-    </footer>    
+    </footer>
+    
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg width="30px" height="30px" class="icon-close">
+                    <use href="svg/sprite.svg#icon-closetwo"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>

@@ -10,8 +10,10 @@ body{
    color: var(--secondary-color);
 }
 
+
 a {
     text-decoration: none;
+    color: #;
 }
 
 
@@ -746,20 +748,32 @@ height: 38px;
     
 }
 /* tut baluwalasa */
+ 
 /* .hovertext {
-    display: flex;
     position: absolute;
-    color: #FFFFFF;
-    width: 370px;
-    height: 294px;
-    padding: 49px 45px 49px 24px;
-    background: rgba(33, 150, 243, 0.9);
-}
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-size: var(--font-18);
+    line-height: var(--l-height-28);
+    letter-spacing: var(--l-spacing-03);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 49px;
+    padding-left: 24px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    opacity: 0.9;
+} */
 
 .staff_p-project:hover,
 .staff_p-project:focus {
     
-} */
+}
 
 .third-header-project{
     margin: 0;
@@ -781,3 +795,59 @@ height: 38px;
 
 
 /*================END PORTFOLIO================ */
+
+/*================MODAL================ */
+
+.backdrop{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    min-height: 581px;
+    width: 528px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     z-index: index 3;
+    animation: animateModal 2000ms 1000ms;
+    transform-origin: center center;
+}   
+
+@keyframes animateModal{
+0% { transform: translate (-50% -50%) scale (1);}
+50% { transform: translate (-50% -50%) scale (1.25);}
+100% {transform:translate (-50% -50%) scale (1);}
+}
+
+    
+.close-btn{
+    position: absolute;
+    right: 8px;;
+    top: 8px;;
+    background-color: #FFFFFF;
+    cursor:pointer;
+    border: hidden;
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+
+/*================END MODAL================ */
