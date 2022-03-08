@@ -725,6 +725,42 @@ height: 38px;
   gap: 30px;
 }
 
+.project-list-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    height: 404px;
+}
+
+.project-list-item:hover,
+.project-list-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.third-header-project,
+.staff_p-project {
+    padding-left: 24px;
+    
+}
+/* tut baluwalasa */
+/* .hovertext {
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    width: 370px;
+    height: 294px;
+    padding: 49px 45px 49px 24px;
+    background: rgba(33, 150, 243, 0.9);
+}
+
+.staff_p-project:hover,
+.staff_p-project:focus {
+    
+} */
+
 .third-header-project{
     margin: 0;
     padding-top: 20px;
